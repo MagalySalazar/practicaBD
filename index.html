@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>REGISTRO</title>
+<link href="css/jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css" />
+<link href="css/jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css" />
+<link href="css/vanilla.css" rel="stylesheet" type="text/css" />
+<!--script src="jquery-mobile/jquery-1.6.4.min.js"></script-->
+<script src="js/jquery-1.6.4.min.js"></script>
+<script src="js/jquery.mobile-1.0.min.js"></script>
+</head>
+
+<body>
+<div data-role="page" id="page">
+ <div data-role="header">
+  <h1> Registro</h1>
+ </div>
+ <fieldset>
+ <form action="conexion.php" method="get">
+<input type="text" name="nombre" id="nombre" value=""  placeholder="Nombre del Alumno"/ >
+<input type="text" name="semestre" id="semestre" value=""  placeholder="Semestre" />
+<input type="text" name="p1" id="p1" value=""  placeholder="Calificacion 1er Parcial"/>
+<input type="text" name="p2" id="p2" value=""  placeholder="Calificacion 2do Parcial"/>
+<input type="text" name="p3" id="p3" value=""  placeholder="Calificacion 3er Parcial"/>
+<input type="text" name="p4" id="p4" value=""  placeholder="Calificacion 4to Parcial"/> 
+ <div data-role="footer" align="center"><button type="subtim" data-theme="a" id="enviadatos">Registrar</button >
+ </form>
+  </fieldset>
+ </div>
+</body>
+</html>
